@@ -4,7 +4,7 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 import Social from './components/social';
 import Avatar from '../../assets/images/diwash-dahal.jpg';
-import Experience from './components/Experience';
+import Experience from './components/experience';
 
 const Page = () => {
 
