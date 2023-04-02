@@ -1,1 +1,0 @@
-self.__RSC_CSS_MANIFEST={"__entry_css_mods__":{"E:\\Projects\\minimal-portfolio\\src\\app\\page":["E:\\Projects\\minimal-portfolio\\src\\app\\globals.css"]},"E:\\Projects\\minimal-portfolio\\src\\app\\layout.tsx":["E:\\Projects\\minimal-portfolio\\src\\app\\globals.css"]}
