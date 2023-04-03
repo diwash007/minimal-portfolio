@@ -44,7 +44,7 @@ const Projects = () => {
                                 <a href={project.link} target='_blank' className='text-primary underline italic'>
                                     <span>{project.name}</span>
                                 </a>
-                                <span className="font-light text-sm"> - {project.description}</span>
+                                <span className="text-sm"> - {project.description}</span>
                             </li>
                         ))
                     }

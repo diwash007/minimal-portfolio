@@ -5,6 +5,7 @@ import Skills from './components/skills';
 import Social from './components/social';
 import Experience from './components/experience';
 import Avatar from '../../assets/images/diwash-dahal.jpg';
+import OtherExperience from './components/other_experience';
 
 const Page = () => {
 
@@ -16,7 +17,7 @@ const Page = () => {
 						Diwash <span className="text-primary">Dahal</span>
 					</h1>
 					<p>
-						Software Developer | <span className="font-bold">Open Source</span>
+						Software Developer | <span className="font-medium">Open Source</span>
 					</p>
 					<p>Namaskar!</p>
 					<p className="text-justify">
@@ -36,6 +37,8 @@ const Page = () => {
 			</div>
 			
 			<Experience />
+
+			<OtherExperience />
 
 			<Education />
 

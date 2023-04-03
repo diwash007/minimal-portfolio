@@ -22,8 +22,8 @@ const Education = () => {
                         education.map((degree, index) => (
                             <li key={index}>
                                 <span>{degree.degree}</span>
-                                <span className="font-light text-sm"> | {degree.institution}</span>
-                                <span className="font-light text-sm"> | {degree.date}</span>
+                                <span className="text-sm"> | {degree.institution}</span>
+                                <span className="text-sm"> | {degree.date}</span>
                             </li>
                         ))
                     }

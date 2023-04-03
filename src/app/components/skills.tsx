@@ -28,7 +28,7 @@ const Skills = () => {
                     {
                         skills.map((skill, index) => (
                             <li key={index}>
-                                <span>{skill.name}</span> <span className="font-light text-sm">({skill.description})</span>
+                                <span>{skill.name}</span> <span className="text-sm">({skill.description})</span>
                             </li>
                         ))
                     }
