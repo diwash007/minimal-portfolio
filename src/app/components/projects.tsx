@@ -43,7 +43,8 @@ const Projects = () => {
                             <li key={index}>
                                 <a href={project.link} target='_blank' className='text-primary underline italic'>
                                     <span>{project.name}</span>
-                                </a> - <span>{project.description}</span>
+                                </a>
+                                <span className="font-light text-sm"> - {project.description}</span>
                             </li>
                         ))
                     }

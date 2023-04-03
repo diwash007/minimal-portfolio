@@ -22,12 +22,12 @@ const Experience = () => {
                     {
                         experiences.map((job, index) => (
                             <li key={index}>
-                                <span className="font-medium">{job.title}</span>
-                                <span> ({job.company})</span>
-                                <p className='text-sm'>{job.time}</p>
-                                <ul className="list-inside list-disc mx-4">
+                                <span className='font-medium'>{job.title}</span>
+                                <div className="text-sm">{job.company}</div>
+                                <div className='font-light text-sm'>{job.time}</div>
+                                <ul className="list-inside list-disc ml-4">
                                     {job.achievements.map((achievement, index) => (
-                                        <li key={index} className='text-sm'>
+                                        <li key={index} className='font-light text-sm'>
                                             {achievement}
                                         </li>
                                     ))}

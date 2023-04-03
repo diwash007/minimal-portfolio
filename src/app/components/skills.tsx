@@ -7,11 +7,11 @@ const Skills = () => {
             description: 'Django, Flask'
         },
         {
-            name: 'Frontend with HTML, CSS and JavaScript',
+            name: 'Frontend with JavaScript',
             description: 'Bootstrap, React.js'
         },
         {
-            name: 'Mobile Application development',
+            name: 'Mobile Application',
             description: 'Flutter, Dart'
         },
         {
@@ -28,7 +28,7 @@ const Skills = () => {
                     {
                         skills.map((skill, index) => (
                             <li key={index}>
-                                <span className="font-medium">{skill.name}</span> <span>({skill.description})</span>
+                                <span>{skill.name}</span> <span className="font-light text-sm">({skill.description})</span>
                             </li>
                         ))
                     }
