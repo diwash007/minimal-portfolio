@@ -1,5 +1,5 @@
 
 # Diwash Dahal's Portfolio
 
-### Inspiration
+### Based on
 Bhaskar Rijal's [minimal portfolio](https://github.com/bhaskarrijal/bhaskarrijal-min)

@@ -31,7 +31,6 @@ const App = () => {
           className="object-cover w-auto h-32 md:w-32 md:h-auto grayscale"
           width={300}
           height={300}
-          placeholder='blur'
         />
       </div>
 
