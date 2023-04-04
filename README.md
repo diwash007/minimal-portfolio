@@ -1,4 +1,5 @@
 
 # Diwash Dahal's Portfolio
 
-Template by [Bhaskar Rijal](https://github.com/bhaskarrijal/bhaskarrijal-min)
+###Inspiration
+Bhaskar Rijal's [minimal portfolio](https://github.com/bhaskarrijal/bhaskarrijal-min)
