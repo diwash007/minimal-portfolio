@@ -1,13 +1,13 @@
-import Education from './components/education';
-import Projects from './components/projects';
-import Skills from './components/skills';
-import Social from './components/social';
-import Experience from './components/experience';
-import Avatar from './assets/images/diwash-dahal.jpg';
-import OtherExperience from './components/other_experience';
+import React from 'react'
+import Education from './components/education'
+import Projects from './components/projects'
+import Skills from './components/skills'
+import Social from './components/social'
+import Experience from './components/experience'
+import Avatar from './assets/images/diwash-dahal.jpg'
+import OtherExperience from './components/other_experience'
 
-const App = () => {
-
+const App = (): JSX.Element => {
   return (
     <div className="flex flex-col gap-8 mx-4 my-16 md:mx-0">
       <div className="flex flex-col-reverse gap-8 md:flex-row">
@@ -20,9 +20,9 @@ const App = () => {
           </p>
           <p>Namaskar!</p>
           <p className="text-justify">
-            My name is Diwash Dahal and I'm an undergraduate computer science student based in Jhapa, Nepal. I enjoy developing
+            My name is Diwash Dahal and I&apos;m an undergraduate computer science student based in Jhapa, Nepal. I enjoy developing
             web applications and, in my free time, I like to contribute to open-source projects.
-            When I'm not coding or studying, I'm usually playing games and making YouTube content.
+            When I&apos;m not coding or studying, I&apos;m usually playing games and making YouTube content.
           </p>
         </div>
         <img
@@ -58,7 +58,7 @@ const App = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

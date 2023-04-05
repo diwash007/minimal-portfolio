@@ -8,5 +8,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <div className="max-w-screen-sm mx-auto selection:bg-primary selection:text-white font-ubuntu">
       <App />
     </div>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
