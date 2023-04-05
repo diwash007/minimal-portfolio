@@ -18,7 +18,15 @@
     "plugins": [
         "react"
     ],
-    "rules": {},
+    "rules": {
+        "max-len": [
+            "warn",
+            {
+                "code": 80
+            }
+        ],
+        "react/prop-types": "off"
+    },
     "settings": {
         "react": {
             "version": "detect"

@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/react-in-jsx-scope */
 import Education from './components/education'
 import Projects from './components/projects'
 import Skills from './components/skills'
@@ -16,13 +16,17 @@ const App = (): JSX.Element => {
             Diwash <span className="text-primary">Dahal</span>
           </h1>
           <p>
-            Software Developer | <span className="font-medium">Open Source</span>
+            Software Developer |
+            <span className="font-medium">Open Source</span>
           </p>
           <p>Namaskar!</p>
           <p className="text-justify">
-            My name is Diwash Dahal and I&apos;m an undergraduate computer science student based in Jhapa, Nepal. I enjoy developing
-            web applications and, in my free time, I like to contribute to open-source projects.
-            When I&apos;m not coding or studying, I&apos;m usually playing games and making YouTube content.
+            My name is Diwash Dahal and I&apos;m an undergraduate
+            computer science student based in Jhapa, Nepal.
+            I enjoy developing web applications and, in my free
+            time, I like to contribute to open-source projects.
+            When I&apos;m not coding or studying, I&apos;m usually
+            playing games and making YouTube content.
           </p>
         </div>
         <img
@@ -51,7 +55,9 @@ const App = (): JSX.Element => {
         <ul className="list-inside">
           <li>
             <span>Email: </span>
-            <a href="mailto:diwashdahal75@gmail.com" className="italic underline text-primary">
+            <a
+              href="mailto:diwashdahal75@gmail.com"
+              className="italic underline text-primary">
               diwashdahal75@gmail.com
             </a>
           </li>
