@@ -44,7 +44,7 @@ const Projects = (): JSX.Element => {
               <a
                 href={project.link}
                 target="_blank"
-                className="text-primary underline italic"
+                className="text-primary-light dark:text-primary-dark underline italic"
                 rel="noreferrer"
               >
                 <span>{project.name}</span>

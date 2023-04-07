@@ -30,7 +30,7 @@ const Social = (): JSX.Element => {
               <a
                 href={social.link}
                 target="_blank"
-                className="text-primary underline italic"
+                className="text-primary-light dark:text-primary-dark underline italic"
                 rel="noreferrer"
               >
                 <span>{social.name}</span>
