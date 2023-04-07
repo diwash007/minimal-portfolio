@@ -21,13 +21,16 @@ const App = (): JSX.Element => {
         />
         <div
           className="max-w-screen-sm mx-auto
-        selection:bg-primary selection:text-white font-ubuntu"
+        selection:bg-primary-light selection:text-white font-ubuntu"
         >
           <div className="flex flex-col gap-8 mx-4 md:mx-0">
             <div className="flex flex-col-reverse gap-8 md:flex-row">
               <div className="flex flex-col gap-4">
                 <h1 className="text-4xl font-medium">
-                  Diwash <span className="text-primary-light dark:text-primary-dark">Dahal</span>
+                  Diwash{' '}
+                  <span className="text-primary-light dark:text-primary-dark">
+                    Dahal
+                  </span>
                 </h1>
                 <p>
                   Software Developer |
