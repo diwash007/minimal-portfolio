@@ -7,12 +7,20 @@ const Skills = (): JSX.Element => {
       description: 'Django, Flask'
     },
     {
-      name: 'Frontend with JavaScript',
-      description: 'Bootstrap, React.js'
+      name: 'Frontend with JS/TS',
+      description: 'Tailwind, React.js'
     },
     {
       name: 'Mobile Application',
       description: 'Flutter, Dart'
+    },
+    {
+      name: 'Version Control',
+      description: 'Git, GitHub'
+    },
+    {
+      name: 'Databases',
+      description: 'MySQL, PostgreSQL'
     },
     {
       name: 'Graphics Design',

@@ -3,9 +3,9 @@ import React from 'react'
 const OtherExperience = (): JSX.Element => {
   const experiences = [
     'Achieved the first runner-up position in Vertex hacks,' +
-      'a nationwide hackathon',
+      ' a nationwide hackathon',
     'Won the Contributor of the Organization Bot' +
-      'competition organized by Hacksquad'
+      ' competition organized by Hacksquad'
   ]
   return (
     <>
