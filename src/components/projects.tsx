@@ -15,7 +15,7 @@ const Projects = (): JSX.Element => {
     {
       name: 'Drag Me Down',
       link: 'https://play.google.com/store/apps/details?id=com.BabbalGames.DragMeDown',
-      description: 'Mobile Game'
+      description: 'Mobile Application'
     },
     {
       name: 'PDF Dark Mode',
