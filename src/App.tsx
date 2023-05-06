@@ -8,6 +8,7 @@ import Avatar from './assets/images/diwash-dahal.jpg'
 import OtherExperience from './components/other_experience'
 import { useTheme } from './contexts/ThemeContext'
 import { DarkModeSwitch } from 'react-toggle-dark-mode'
+import Inprogress from './components/inProgress'
 
 const App = (): JSX.Element => {
   const theme = useTheme()
@@ -57,6 +58,8 @@ const App = (): JSX.Element => {
             <Experience />
 
             <OtherExperience />
+
+            <Inprogress />
 
             <Education />
 
