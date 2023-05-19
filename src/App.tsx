@@ -59,7 +59,7 @@ const App = (): JSX.Element => {
 
             <OtherExperience />
 
-            <Inprogress />
+            {/* <Inprogress /> */}
 
             <Education />
 

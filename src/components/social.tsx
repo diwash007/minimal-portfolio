@@ -17,6 +17,10 @@ const Social = (): JSX.Element => {
     {
       name: 'YouTube',
       link: 'https://youtube.com/@dahaldiwash2'
+    },
+    {
+      name: 'Medium',
+      link: 'https://medium.com/@diwashdahal'
     }
   ]
 

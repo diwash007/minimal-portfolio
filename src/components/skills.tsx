@@ -8,11 +8,11 @@ const Skills = (): JSX.Element => {
     },
     {
       name: 'Frontend with JavaScript',
-      description: 'React.js'
+      description: 'React.js,ts'
     },
     {
       name: 'Mobile Application',
-      description: 'Flutter'
+      description: 'Flutter, React Native'
     },
     {
       name: 'Version Control',

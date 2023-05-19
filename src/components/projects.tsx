@@ -5,33 +5,43 @@ const Projects = (): JSX.Element => {
     {
       name: 'FlaskOshop',
       link: 'https://flaskoshop.gilobyte.com/',
-      description: 'Web Application'
+      techs: ['Python', 'Flask']
     },
     {
       name: '29 Card Game',
       link: 'https://diwashdahal.com.np/29points',
-      description: 'Web Application'
+      techs: ['React.js', 'Python']
+    },
+    {
+      name: 'Guess the Word',
+      link: 'https://play.google.com/store/apps/details?id=com.diwashdahal.guesstheword',
+      techs: ['React Native']
+    },
+    {
+      name: 'Subhakaarya.com',
+      link: 'https://subhakaarya.com',
+      techs: ['React', 'Django']
     },
     {
       name: 'Drag Me Down',
       link: 'https://play.google.com/store/apps/details?id=com.BabbalGames.DragMeDown',
-      description: 'Mobile Application'
+      techs: ['Unity']
     },
     {
       name: 'PDF Dark Mode',
       // eslint-disable-next-line max-len
       link: 'https://microsoftedge.microsoft.com/addons/detail/pdf-dark-mode/nghkmkbjhpgdibgopgekgjnbocfmnjdo',
-      description: 'Browser Extension'
+      techs: ['Js']
     },
     {
       name: 'Medustore',
       link: 'http://www.youtube.com/watch?v=CyhJCKP0G84',
-      description: 'Mobile Application'
+      techs: ['Flutter']
     },
     {
       name: 'HCR2 Guide',
       link: 'https://diwashdahal.com.np/HCR2-Guide/',
-      description: 'Mobile Application'
+      techs: ['Flutter']
     }
   ]
   return (
@@ -40,7 +50,7 @@ const Projects = (): JSX.Element => {
         <h2 className="font-medium text-2xl">Projects</h2>
         <ul className="ist-inside">
           {projects.map((project, index) => (
-            <li key={index}>
+            <li key={index} className='mb-2'>
               <a
                 href={project.link}
                 target="_blank"
@@ -49,7 +59,14 @@ const Projects = (): JSX.Element => {
               >
                 <span>{project.name}</span>
               </a>
-              <span className="text-sm"> - {project.description}</span>
+              {project.techs.map((tech, index) => (
+                <span
+                  className="px-2 ml-2 text-sm rounded-md text-primary-light/75 bg-primary-light/10"
+                  key={index}
+                >
+                  {tech}
+                </span>
+              ))}
             </li>
           ))}
         </ul>
